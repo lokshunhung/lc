@@ -7,5 +7,5 @@ exports_files(
 
 jest_test(
     name = "test-ts",
-    srcs = glob(["**/*.ts"]),
+    srcs = glob(["**/*.spec.ts"]),
 )

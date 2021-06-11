@@ -21,6 +21,7 @@ def jest_test(name, srcs, **kwargs):
 
     data = ["@npm//@types/jest", "@npm//tslib", "@npm//ts-jest"]
     data.extend(srcs)
+    data.extend(["//tools:list-node.ts"])
     data.extend(["//:jest.config.json", "//:tsconfig.json"])
 
     _jest_test(
