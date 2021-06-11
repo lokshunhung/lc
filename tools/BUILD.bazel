@@ -1,0 +1,11 @@
+load("//tools:index.bzl", "jest_test")
+
+exports_files(
+    ["list-node.ts"],
+    visibility = ["//:__subpackages__"],
+)
+
+jest_test(
+    name = "test-ts",
+    srcs = glob(["**/*.ts"]),
+)
