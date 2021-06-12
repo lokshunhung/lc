@@ -4,3 +4,4 @@
 | 2   | Add Two Numbers          | [TS](./src/medium/add-two-numbers/add-two-numbers.ts)       | Medium     |
 | 7   | Reverse Integer          | [TS](./src/easy/reverse-integer/reverse-integer.ts)         | Easy       |
 | 8   | String to Integer (atoi) | [TS](./src/medium/string-to-integer/string-to-integer.ts)   | Medium     |
+| 13  | Roman to Integer         | [TS](./src/easy/roman-to-integer/roman-to-integer.ts)       | Easy       |
