@@ -1,6 +1,6 @@
-const signMap: Record<string, 1 | -1> = {
-    "+": 1,
-    "-": -1,
+const signMap: Record<string, boolean> = {
+    "+": true,
+    "-": false,
 };
 
 const digitMap: Record<string, number> = {
@@ -16,11 +16,8 @@ const digitMap: Record<string, number> = {
     "9": 9,
 };
 
-const LIMIT_LO = -(2 ** 31);
-const LIMIT_HI = 2 ** 31 - 1;
-
 export function myAtoi(s: string): number {
-    let sign: -1 | 1 = 1;
+    let isPositive = true;
     let isLeading = true;
     let result = 0;
 
@@ -34,7 +31,7 @@ export function myAtoi(s: string): number {
         if (char in signMap) {
             if (isLeading) {
                 isLeading = false;
-                sign = signMap[char];
+                isPositive = signMap[char];
                 continue;
             } else {
                 break;
@@ -44,19 +41,19 @@ export function myAtoi(s: string): number {
         if (char in digitMap) {
             isLeading = false;
             let digit = digitMap[char];
-            result = result * 10 + sign * digit;
-            if (result <= LIMIT_LO) {
-                result = LIMIT_LO;
-                break;
-            } else if (result >= LIMIT_HI) {
-                result = LIMIT_HI;
+            result = result * 10 + digit;
+
+            let limit = 2 ** 31 - (isPositive ? 1 : 0);
+            if (result >= limit) {
+                result = limit;
                 break;
             }
+
             continue;
         }
 
         break;
     }
 
-    return result;
+    return (isPositive ? 1 : -1) * result;
 }
