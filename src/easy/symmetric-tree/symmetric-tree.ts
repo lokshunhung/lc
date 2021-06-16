@@ -13,3 +13,27 @@ function isMirror(l: TreeNode | null, r: TreeNode | null): boolean {
 export function isSymmetric(root: TreeNode | null): boolean {
     return isMirror(root, root);
 }
+
+export function isSymmetricIterative(root: TreeNode | null): boolean {
+    if (root === null) {
+        return true;
+    }
+    let queue: Array<TreeNode | null> = [];
+    queue.push(root, root);
+    while (queue.length !== 0) {
+        let l = queue.shift() as TreeNode | null;
+        let r = queue.shift() as TreeNode | null;
+        if (l === null && r === null) {
+            continue;
+        }
+        if (l === null || r === null) {
+            return false;
+        }
+        if (l.val !== r.val) {
+            return false;
+        }
+        queue.push(l.right, r.left);
+        queue.push(l.left, r.right);
+    }
+    return true;
+}
