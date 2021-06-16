@@ -8,3 +8,4 @@
 | 12  | Integer to Roman         | [TS](./src/medium/integer-to-roman/integer-to-roman.ts)          | Medium     |
 | 13  | Roman to Integer         | [TS](./src/easy/roman-to-integer/roman-to-integer.ts)            | Easy       |
 | 14  | Longest Common Prefix    | [TS](./src/easy/longest-common-prefix/longest-common-prefix.ts)  | Easy       |
+| 20  | Valid Parentheses        | [TS](./src/easy/valid-parentheses/valid-parentheses.ts)          | Easy       |
