@@ -31,6 +31,31 @@ test("toTreeNode", () => {
             ),
         );
     expect(result4).toStrictEqual(expected4);
+
+    let input6 = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, null, 1];
+    let result6 = toTreeNode(input6);
+    // prettier-ignore
+    let expected6 =
+        new TreeNode(5,
+            new TreeNode(4,
+                new TreeNode(11,
+                    new TreeNode(7),
+                    new TreeNode(2)
+                ),
+                null,
+            ),
+            new TreeNode(8,
+                new TreeNode(13,
+                    null,
+                    null,
+                ),
+                new TreeNode(4,
+                    null,
+                    new TreeNode(1),
+                ),
+            ),
+        );
+    expect(result6).toStrictEqual(expected6);
 });
 
 test("toArray", () => {
@@ -77,4 +102,29 @@ test("toArray", () => {
     let result5 = toArray(input5);
     let expected5 = [1, null, 2, null, null, null, 3];
     expect(result5).toStrictEqual(expected5);
+
+    // prettier-ignore
+    let input6 =
+        new TreeNode(5,
+            new TreeNode(4,
+                new TreeNode(11,
+                    new TreeNode(7),
+                    new TreeNode(2)
+                ),
+                null,
+            ),
+            new TreeNode(8,
+                new TreeNode(13,
+                    null,
+                    null,
+                ),
+                new TreeNode(4,
+                    null,
+                    new TreeNode(1),
+                ),
+            ),
+        );
+    let result6 = toArray(input6);
+    let expected6 = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, null, 1];
+    expect(result6).toStrictEqual(expected6);
 });
