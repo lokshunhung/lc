@@ -9,3 +9,4 @@
 | 13  | Roman to Integer         | [TS](./src/easy/roman-to-integer/roman-to-integer.ts)            | Easy       |
 | 14  | Longest Common Prefix    | [TS](./src/easy/longest-common-prefix/longest-common-prefix.ts)  | Easy       |
 | 20  | Valid Parentheses        | [TS](./src/easy/valid-parentheses/valid-parentheses.ts)          | Easy       |
+| 100 | Same Tree                | [TS](./src/easy/same-tree/same-tree.ts)                          | Easy       |
