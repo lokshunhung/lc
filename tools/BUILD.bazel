@@ -1,11 +1,14 @@
 load("//tools:index.bzl", "jest_test")
 
 exports_files(
-    ["list-node.ts"],
+    [
+        "list-node.ts",
+        "tree-node.ts",
+    ],
     visibility = ["//:__subpackages__"],
 )
 
 jest_test(
     name = "test-ts",
-    srcs = glob(["**/*.spec.ts"]),
+    srcs = glob(["**/*.spec.ts"]),  # Note: src files are included in `jest_test` macro
 )
