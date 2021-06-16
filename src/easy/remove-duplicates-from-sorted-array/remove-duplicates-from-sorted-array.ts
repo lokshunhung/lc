@@ -1,20 +1,14 @@
-// TODO: refactor
 export function removeDuplicates(nums: number[]): number {
-    let originalLength = nums.length;
-    let prev: number | null = null;
-    let removedCount: number = 0;
-    for (let i = 0; i < nums.length; ++i) {
-        let num = nums[i];
-        if (prev === null) {
-            prev = num;
+    if (nums.length === 0) {
+        return 0;
+    }
+    let lo = 0;
+    for (let hi = 1; hi < nums.length; ++hi) {
+        if (nums[lo] === nums[hi]) {
             continue;
         }
-        if (num === prev) {
-            nums.splice(i, 1);
-            --i;
-            ++removedCount;
-        }
-        prev = num;
+        ++lo;
+        nums[lo] = nums[hi];
     }
-    return originalLength - removedCount;
+    return lo + 1;
 }
