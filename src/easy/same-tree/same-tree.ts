@@ -1,14 +1,11 @@
 import { TreeNode } from "lc/tools/tree-node";
 
 export function isSameTree(p: TreeNode | null, q: TreeNode | null): boolean {
-    if (p === null) {
-        return q === null;
+    if (p === null && q === null) {
+        return true;
     }
-    if (q === null) {
+    if (p === null || q === null) {
         return false;
     }
-    if (p.val !== q.val) {
-        return false;
-    }
-    return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    return p.val === q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 }
