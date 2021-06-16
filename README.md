@@ -10,5 +10,6 @@
 | 14  | Longest Common Prefix                | [TS](./src/easy/longest-common-prefix/longest-common-prefix.ts)                              | Easy       |
 | 20  | Valid Parentheses                    | [TS](./src/easy/valid-parentheses/valid-parentheses.ts)                                      | Easy       |
 | 26  | Remove Duplicates from Sorted Array  | [TS](./src/easy/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.ts)  | Easy       |
+| 94  | Binary Tree Inorder Traversal        | [TS](./src/easy/binary-tree-inorder-traversal/binary-tree-inorder-traversal.ts)              | Easy       |
 | 100 | Same Tree                            | [TS](./src/easy/same-tree/same-tree.ts)                                                      | Easy       |
 | 101 | Symmetric Tree                       | [TS](./src/easy/symmetric-tree/symmetric-tree.ts)                                            | Easy       |
