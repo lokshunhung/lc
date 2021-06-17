@@ -16,4 +16,5 @@
 | 102 | Binary Tree Level Order Traversal    | [TS](./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts)        | Medium     |
 | 107 | Binary Tree Level Order Traversal II | [TS](./src/medium/binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.ts)  | Medium     |
 | 112 | Path Sum                             | [TS](./src/easy/path-sum/path-sum.ts)                                                            | Easy       |
+| 113 | Path Sum II                          | [TS](./src/medium/path-sum-ii/path-sum-ii.ts)                                                    | Medium     |
 | 637 | Average of Levels in Binary Tree     | [TS](./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts)            | Easy       |
