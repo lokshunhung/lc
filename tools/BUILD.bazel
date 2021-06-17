@@ -10,5 +10,5 @@ exports_files(
 
 jest_test(
     name = "test-ts",
-    srcs = glob(["**/*.spec.ts"]),  # Note: src files are included in `jest_test` macro
+    srcs = glob(["**/*.spec.ts"]) + ["tree-node-old.ts"],  # Note: list-node, tree-node are included in `jest_test` macro
 )

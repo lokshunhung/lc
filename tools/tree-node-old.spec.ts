@@ -1,6 +1,6 @@
-import { toArray, toTreeNode, TreeNode } from "./tree-node";
+import { toArray, toTreeNode, TreeNode } from "lc/tools/tree-node-old";
 
-test("toTreeNode", () => {
+test("toTreeNode (old)", () => {
     let input1: number[] = [];
     let result1 = toTreeNode(input1);
     let expected1 = null;
@@ -32,20 +32,7 @@ test("toTreeNode", () => {
         );
     expect(result4).toStrictEqual(expected4);
 
-    let input5 = [1, null, 2, 3];
-    let result5 = toTreeNode(input5);
-    // prettier-ignore
-    let expected5 =
-        new TreeNode(1,
-            null,
-            new TreeNode(2,
-                new TreeNode(3),
-                null,
-            ),
-        );
-    expect(result5).toStrictEqual(expected5);
-
-    let input6 = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1];
+    let input6 = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, null, 1];
     let result6 = toTreeNode(input6);
     // prettier-ignore
     let expected6 =
@@ -71,7 +58,7 @@ test("toTreeNode", () => {
     expect(result6).toStrictEqual(expected6);
 });
 
-test("toArray", () => {
+test("toArray (old)", () => {
     let input1 = null;
     let result1 = toArray(input1);
     let expected1: number[] = [];
@@ -108,12 +95,12 @@ test("toArray", () => {
         new TreeNode(1,
             null,
             new TreeNode(2,
-                new TreeNode(3),
                 null,
+                new TreeNode(3),
             ),
         );
     let result5 = toArray(input5);
-    let expected5 = [1, null, 2, 3];
+    let expected5 = [1, null, 2, null, null, null, 3];
     expect(result5).toStrictEqual(expected5);
 
     // prettier-ignore
@@ -138,6 +125,6 @@ test("toArray", () => {
             ),
         );
     let result6 = toArray(input6);
-    let expected6 = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1];
+    let expected6 = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, null, 1];
     expect(result6).toStrictEqual(expected6);
 });
