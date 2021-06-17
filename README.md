@@ -14,3 +14,4 @@
 | 100 | Same Tree                            | [TS](./src/easy/same-tree/same-tree.ts)                                                      | Easy       |
 | 101 | Symmetric Tree                       | [TS](./src/easy/symmetric-tree/symmetric-tree.ts)                                            | Easy       |
 | 102 | Binary Tree Level Order Traversal    | [TS](./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts)    | Medium     |
+| 637 | Average of Levels in Binary Tree     | [TS](./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts)        | Easy       |
