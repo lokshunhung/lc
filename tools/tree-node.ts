@@ -1,3 +1,4 @@
+/** @deprecated use implementation from lc-tree-node */
 export class TreeNode {
     val: number;
     left: TreeNode | null;
@@ -23,6 +24,7 @@ function buildTreeNode(arr: Array<number | null>, i: number): TreeNode | null {
     return treeNode;
 }
 
+/** @deprecated use implementation from lc-tree-node */
 export function toTreeNode(arr: Array<number | null>): TreeNode | null {
     return buildTreeNode(arr, 0);
 }
@@ -37,6 +39,7 @@ function pushTreeNode(arr: Array<number | null>, i: number, treeNode: TreeNode |
     pushTreeNode(arr, (i + 1) * 2, treeNode.right);
 }
 
+/** @deprecated use implementation from lc-tree-node */
 export function toArray(treeNode: TreeNode | null): Array<number | null> {
     let arr: Array<number | null> = [];
     pushTreeNode(arr, 0, treeNode);
