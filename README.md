@@ -24,6 +24,7 @@
 | 102 | Binary Tree Level Order Traversal                          | [TS][TS102]  | Medium     |
 | 103 | Binary Tree Zigzag Level Order Traversal                   | [TS][TS103]  | Medium     |
 | 104 | Maximum Depth of Binary Tree                               | [TS][TS104]  | Easy       |
+| 105 | Construct Binary Tree from Preorder and Inorder Traversal  | [TS][TS105]  | Medium     |
 | 107 | Binary Tree Level Order Traversal II                       | [TS][TS107]  | Medium     |
 | 108 | Convert Sorted Array to Binary Search Tree                 | [TS][TS108]  | Easy       |
 | 110 | Balanced Binary Tree                                       | [TS][TS110]  | Easy       |
@@ -97,6 +98,7 @@
 [TS102]: ./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts
 [TS103]: ./src/medium/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.ts
 [TS104]: ./src/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts
+[TS105]: ./src/medium/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.ts
 [TS107]: ./src/medium/binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.ts
 [TS108]: ./src/easy/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.ts
 [TS110]: ./src/easy/balanced-binary-tree/balanced-binary-tree.ts
