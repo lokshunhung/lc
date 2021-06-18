@@ -4,6 +4,7 @@ exports_files(
     [
         "list-node.ts",
         "tree-node.ts",
+        "types.ts",
     ],
     visibility = ["//:__subpackages__"],
 )

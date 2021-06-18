@@ -1,10 +1,16 @@
 import { TreeNode } from "lc/tools/tree-node";
-import { DFS } from "./dfs";
+import { DFS, iterativeDFS } from "./dfs";
 
-test("DFS", () => {
+export type TraversalFn = (root: TreeNode | null, visit: (treeNode: TreeNode) => void) => void;
+
+test.each`
+    name              | traversalFn
+    ${"DFS"}          | ${DFS}
+    ${"iterativeDFS"} | ${iterativeDFS}
+`("$name", ({ traversalFn }: Record<"traversalFn", TraversalFn>) => {
     let tree1 = null;
     let visited1: Array<number> = [];
-    DFS(tree1, (_) => visited1.push(_.val));
+    traversalFn(tree1, (_) => visited1.push(_.val));
     expect(visited1).toStrictEqual([]);
 
     // prettier-ignore
@@ -20,7 +26,7 @@ test("DFS", () => {
             ),
         );
     let visited2: Array<number> = [];
-    DFS(tree2, (_) => visited2.push(_.val));
+    traversalFn(tree2, (_) => visited2.push(_.val));
     let expected2 = [1, 2, 3, 5, 7];
     expect(visited2).toStrictEqual(expected2);
 
@@ -46,7 +52,7 @@ test("DFS", () => {
             ),
         );
     let visited3: Array<number> = [];
-    DFS(tree3, (_) => visited3.push(_.val));
+    traversalFn(tree3, (_) => visited3.push(_.val));
     let expected3 = [1, 2, 4, 6, 7, 3, 5, 8, 9];
     expect(visited3).toStrictEqual(expected3);
 });
