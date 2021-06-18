@@ -17,6 +17,7 @@
 | 103 | Binary Tree Zigzag Level Order Traversal                   | [TS][TS103]  | Medium     |
 | 104 | Maximum Depth of Binary Tree                               | [TS][TS104]  | Easy       |
 | 107 | Binary Tree Level Order Traversal II                       | [TS][TS107]  | Medium     |
+| 110 | Balanced Binary Tree                                       | [TS][TS110]  | Easy       |
 | 111 | Minimum Depth of Binary Tree                               | [TS][TS111]  | Easy       |
 | 112 | Path Sum                                                   | [TS][TS112]  | Easy       |
 | 113 | Path Sum II                                                | [TS][TS113]  | Medium     |
@@ -40,6 +41,7 @@
 [TS103]: ./src/medium/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.ts
 [TS104]: ./src/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts
 [TS107]: ./src/medium/binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.ts
+[TS110]: ./src/easy/balanced-binary-tree/balanced-binary-tree.ts
 [TS111]: ./src/easy/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.ts
 [TS112]: ./src/easy/path-sum/path-sum.ts
 [TS113]: ./src/medium/path-sum-ii/path-sum-ii.ts
