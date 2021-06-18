@@ -1,4 +1,4 @@
-| #   | Title                                                      | Solution                                                                                         | Difficulty |
+| #   | Title                                                      | Solution     | Difficulty |
 | --- | ---------------------------------------------------------- | ------------ | ---------- |
 | 1   | Two Sum                                                    | [TS][TS1]    | Easy       |
 | 2   | Add Two Numbers                                            | [TS][TS2]    | Medium     |
