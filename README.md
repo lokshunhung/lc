@@ -14,6 +14,7 @@
 | 100 | Same Tree                                                  | [TS][TS100]  | Easy       |
 | 101 | Symmetric Tree                                             | [TS][TS101]  | Easy       |
 | 102 | Binary Tree Level Order Traversal                          | [TS][TS102]  | Medium     |
+| 103 | Binary Tree Zigzag Level Order Traversal                   | [TS][TS103]  | Medium     |
 | 104 | Maximum Depth of Binary Tree                               | [TS][TS104]  | Easy       |
 | 107 | Binary Tree Level Order Traversal II                       | [TS][TS107]  | Medium     |
 | 112 | Path Sum                                                   | [TS][TS112]  | Easy       |
@@ -35,6 +36,7 @@
 [TS100]: ./src/easy/same-tree/same-tree.ts
 [TS101]: ./src/easy/symmetric-tree/symmetric-tree.ts
 [TS102]: ./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts
+[TS103]: ./src/medium/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.ts
 [TS104]: ./src/easy/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.ts
 [TS107]: ./src/medium/binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.ts
 [TS112]: ./src/easy/path-sum/path-sum.ts
