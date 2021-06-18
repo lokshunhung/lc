@@ -23,6 +23,7 @@
 | 112 | Path Sum                                                   | [TS][TS112]  | Easy       |
 | 113 | Path Sum II                                                | [TS][TS113]  | Medium     |
 | 114 | Flatten Binary Tree to Linked List                         | [TS][TS114]  | Medium     |
+| 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]  | Medium     |
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
@@ -50,6 +51,7 @@
 [TS112]: ./src/easy/path-sum/path-sum.ts
 [TS113]: ./src/medium/path-sum-ii/path-sum-ii.ts
 [TS114]: ./src/medium/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.ts
+[TS129]: ./src/medium/sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.ts
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
