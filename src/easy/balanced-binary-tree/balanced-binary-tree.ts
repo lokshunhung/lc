@@ -13,5 +13,8 @@ export function isBalanced(root: TreeNode | null): boolean {
     }
     let leftDepth = maxDepth(root.left);
     let rightDep = maxDepth(root.right);
-    return Math.abs(leftDepth - rightDep) <= 1;
+    let isSelfBalanced = Math.abs(leftDepth - rightDep) <= 1;
+    let isLeftBalanced = isBalanced(root.left);
+    let isRightBalanced = isBalanced(root.right);
+    return isSelfBalanced && isLeftBalanced && isRightBalanced;
 }
