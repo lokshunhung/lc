@@ -1,0 +1,6 @@
+load("//tools:index.bzl", "jest_test")
+
+jest_test(
+    name = "test-ts",
+    srcs = glob(["**/*.ts"]),
+)
