@@ -1,12 +1,12 @@
 import { TreeNode } from "lc/tools/tree-node";
-import { DFS, iterativeDFS } from "./dfs";
+import { BFS, RecursiveBFS } from "./bfs-tree-node";
 
 export type TraversalFn = (root: TreeNode | null, visit: (treeNode: TreeNode) => void) => void;
 
 test.each`
     name              | traversalFn
-    ${"DFS"}          | ${DFS}
-    ${"iterativeDFS"} | ${iterativeDFS}
+    ${"BFS"}          | ${BFS}
+    ${"RecursiveBFS"} | ${RecursiveBFS}
 `("$name", ({ traversalFn }: Record<"traversalFn", TraversalFn>) => {
     let tree1 = null;
     let visited1: Array<number> = [];
@@ -27,7 +27,7 @@ test.each`
         );
     let visited2: Array<number> = [];
     traversalFn(tree2, (_) => visited2.push(_.val));
-    let expected2 = [1, 2, 3, 5, 7];
+    let expected2 = [1, 2, 5, 3, 7];
     expect(visited2).toStrictEqual(expected2);
 
     // prettier-ignore
@@ -53,6 +53,6 @@ test.each`
         );
     let visited3: Array<number> = [];
     traversalFn(tree3, (_) => visited3.push(_.val));
-    let expected3 = [1, 2, 4, 6, 7, 3, 5, 8, 9];
+    let expected3 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     expect(visited3).toStrictEqual(expected3);
 });
