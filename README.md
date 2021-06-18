@@ -28,6 +28,7 @@
 | 118 | Pascal's Triangle                                          | [TS][TS118]  | Easy       |
 | 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]  | Medium     |
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
+| 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
 | 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
@@ -76,6 +77,7 @@
 [TS118]: ./src/easy/pascals-triangle/pascals-triangle.ts
 [TS129]: ./src/medium/sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.ts
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
+[TS173]: ./src/medium/binary-search-tree-iterator
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
 [TS257]: ./src/easy/binary-tree-paths/binary-tree-paths.ts
