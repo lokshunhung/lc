@@ -33,6 +33,7 @@
 | 901 | Find Mode in Binary Search Tree                            | [TS][TS901]  | Easy       |
 | 938 | Range Sum of BST                                           | [TS][TS938]  | Easy       |
 | 965 | Univalued Binary Tree                                      | [TS][TS965]  | Easy       |
+| 988 | Smallest String Starting From Leaf                         | [TS][TS988]  | Medium     |
 | 1022| Sum of Root To Leaf Binary Numbers                         | [TS][TS1022] | Easy       |
 
 [TS1]: ./src/easy/two-sum/two-sum.ts
@@ -68,4 +69,5 @@
 [TS901]: ./src/easy/find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.ts
 [TS938]: ./src/easy/range-sum-of-bst/range-sum-of-bst.ts
 [TS965]: ./src/easy/univalued-binary-tree/univalued-binary-tree.ts
+[TS988]: ./src/medium/smallest-string-starting-from-leaf/smallest-string-starting-from-leaf.ts
 [TS1022]: ./src/easy/sum-of-root-to-leaf-binary-numbers/sum-of-root-to-leaf-binary-numbers.ts
