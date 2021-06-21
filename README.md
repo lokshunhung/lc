@@ -31,6 +31,7 @@
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
 | 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
+| 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
 | 901 | Find Mode in Binary Search Tree                            | [TS][TS901]  | Easy       |
 | 938 | Range Sum of BST                                           | [TS][TS938]  | Easy       |
@@ -69,6 +70,7 @@
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
+[TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
 [TS901]: ./src/easy/find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.ts
 [TS938]: ./src/easy/range-sum-of-bst/range-sum-of-bst.ts
