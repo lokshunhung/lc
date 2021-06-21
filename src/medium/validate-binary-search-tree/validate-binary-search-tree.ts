@@ -4,12 +4,15 @@ function visitTreeNode(treeNode: TreeNode | null, minNode: TreeNode | null, maxN
     if (treeNode === null) {
         return true;
     }
-    if ((minNode === null || minNode.val < treeNode.val) && (maxNode === null || treeNode.val < maxNode.val)) {
-        let isLeftValid = visitTreeNode(treeNode.left, minNode, treeNode);
-        let isRightValid = visitTreeNode(treeNode.right, treeNode, maxNode);
-        return isLeftValid && isRightValid;
+    if (minNode !== null && minNode.val >= treeNode.val) {
+        return false;
     }
-    return false;
+    if (maxNode !== null && treeNode.val >= maxNode.val) {
+        return false;
+    }
+    let isLeftValid = visitTreeNode(treeNode.left, minNode, treeNode);
+    let isRightValid = visitTreeNode(treeNode.right, treeNode, maxNode);
+    return isLeftValid && isRightValid;
 }
 
 export function isValidBST(root: TreeNode | null): boolean {
