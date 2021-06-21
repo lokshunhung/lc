@@ -10,6 +10,7 @@
 | 14  | Longest Common Prefix                                      | [TS][TS14]   | Easy       |
 | 20  | Valid Parentheses                                          | [TS][TS20]   | Easy       |
 | 26  | Remove Duplicates from Sorted Array                        | [TS][TS26]   | Easy       |
+| 48  | Rotate Image                                               | [TS][TS48]   | Medium     |
 | 94  | Binary Tree Inorder Traversal                              | [TS][TS94]   | Medium     |
 | 98  | Validate Binary Search Tree                                | [TS][TS98]   | Medium     |
 | 100 | Same Tree                                                  | [TS][TS100]  | Easy       |
@@ -49,6 +50,7 @@
 [TS14]: ./src/easy/longest-common-prefix/longest-common-prefix.ts
 [TS20]: ./src/easy/valid-parentheses/valid-parentheses.ts
 [TS26]: ./src/easy/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.ts
+[TS48]: ./src/medium/rotate-image/rotate-image.ts
 [TS94]: ./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts
 [TS98]: ./src/medium/validate-binary-search-tree/validate-binary-search-tree.ts
 [TS100]: ./src/easy/same-tree/same-tree.ts
