@@ -27,6 +27,7 @@
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
+| 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
 | 938 | Range Sum of BST                                           | [TS][TS938]  | Easy       |
 | 1022| Sum of Root To Leaf Binary Numbers                         | [TS][TS1022] | Easy       |
@@ -58,6 +59,7 @@
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
+[TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
 [TS938]: ./src/easy/range-sum-of-bst/range-sum-of-bst.ts
 [TS1022]: ./src/easy/sum-of-root-to-leaf-binary-numbers/sum-of-root-to-leaf-binary-numbers.ts
