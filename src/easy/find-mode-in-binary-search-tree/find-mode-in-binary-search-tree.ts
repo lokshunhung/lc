@@ -13,6 +13,7 @@ function visitTreeNode(treeNode: TreeNode | null, result: Record<number, number>
     visitTreeNode(treeNode.right, result);
 }
 
+// TODO: efficiency (BST; LSubtree <= treeNode; RSubtree >= treeNode)
 export function findMode(root: TreeNode | null): number[] {
     let result: Record<number, number> = {};
     visitTreeNode(root, result);
