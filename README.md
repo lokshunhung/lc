@@ -32,6 +32,7 @@
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
 | 901 | Find Mode in Binary Search Tree                            | [TS][TS901]  | Easy       |
 | 938 | Range Sum of BST                                           | [TS][TS938]  | Easy       |
+| 965 | Univalued Binary Tree                                      | [TS][TS965]  | Easy       |
 | 1022| Sum of Root To Leaf Binary Numbers                         | [TS][TS1022] | Easy       |
 
 [TS1]: ./src/easy/two-sum/two-sum.ts
@@ -66,4 +67,5 @@
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
 [TS901]: ./src/easy/find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.ts
 [TS938]: ./src/easy/range-sum-of-bst/range-sum-of-bst.ts
+[TS965]: ./src/easy/univalued-binary-tree/univalued-binary-tree.ts
 [TS1022]: ./src/easy/sum-of-root-to-leaf-binary-numbers/sum-of-root-to-leaf-binary-numbers.ts
