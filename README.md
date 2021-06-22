@@ -35,6 +35,7 @@
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
 | 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
+| 700 | Search in a Binary Search Tree                             | [TS][TS700]  | Easy       |
 | 792 | Number of Matching Subsequences                            | [TS][TS792]  | Medium     |
 | 872 | Leaf-Similar Trees                                         | [TS][TS872]  | Easy       |
 | 897 | Increasing Order Search Tree                               | [TS][TS897]  | Easy       |
@@ -79,6 +80,7 @@
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
+[TS700]: ./src/easy/search-in-a-binary-search-tree/search-in-a-binary-search-tree.ts
 [TS792]: ./src/medium/number-of-matching-subsequences/number-of-matching-subsequences.ts
 [TS872]: ./src/easy/leaf-similar-trees/leaf-similar-trees.ts
 [TS897]: ./src/easy/increasing-order-search-tree/increasing-order-search-tree.ts
