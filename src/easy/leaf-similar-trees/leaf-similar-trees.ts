@@ -1,30 +1,36 @@
 import { TreeNode } from "lc/tools/tree-node";
 
-function findLeaves(root: TreeNode | null): number[] {
+function* generateLeaves(root: TreeNode | null): Generator<number> {
     if (root === null) {
-        return [];
+        return;
     }
     if (root.left === null && root.right === null) {
-        return [root.val];
+        yield root!.val;
+        return;
     }
-    return [...findLeaves(root.left), ...findLeaves(root.right)];
+    yield* generateLeaves(root.left);
+    yield* generateLeaves(root.right);
 }
 
-function arrayEquals(arr1: number[], arr2: number[]): boolean {
-    if (arr1.length !== arr2.length) {
-        return false;
-    }
-    for (let i = 0; i < arr1.length; ++i) {
-        if (arr1[i] !== arr2[i]) {
+function generatorEquals(i1: Generator<number>, i2: Generator<number>): boolean {
+    while (true) {
+        let r1 = i1.next();
+        let r2 = i2.next();
+        if (r1.done !== r2.done) {
+            return false;
+        }
+        if (r1.done) {
+            return true;
+        }
+        if (r1.value !== r2.value) {
             return false;
         }
     }
-    return true;
 }
 
-// TODO: do not allocate array
+// TODO: revert to using array (but with less allocation) because generators are slower
 export function leafSimilar(root1: TreeNode | null, root2: TreeNode | null): boolean {
-    let leaves1 = findLeaves(root1);
-    let leaves2 = findLeaves(root2);
-    return arrayEquals(leaves1, leaves2);
+    let leaves1 = generateLeaves(root1);
+    let leaves2 = generateLeaves(root2);
+    return generatorEquals(leaves1, leaves2);
 }
