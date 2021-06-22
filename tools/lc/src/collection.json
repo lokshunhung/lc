@@ -1,0 +1,9 @@
+{
+    "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+    "schematics": {
+        "tools/lc": {
+            "description": "Generate LC.",
+            "factory": "./tools/lc/indexØ"
+        }
+    }
+}
