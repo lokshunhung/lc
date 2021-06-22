@@ -36,6 +36,7 @@
 | 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
 | 792 | Number of Matching Subsequences                            | [TS][TS792]  | Medium     |
+| 897 | Increasing Order Search Tree                               | [TS][TS897]  | Easy       |
 | 901 | Find Mode in Binary Search Tree                            | [TS][TS901]  | Easy       |
 | 938 | Range Sum of BST                                           | [TS][TS938]  | Easy       |
 | 965 | Univalued Binary Tree                                      | [TS][TS965]  | Easy       |
@@ -78,6 +79,7 @@
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
 [TS792]: ./src/medium/number-of-matching-subsequences/number-of-matching-subsequences.ts
+[TS897]: ./src/easy/increasing-order-search-tree/increasing-order-search-tree.ts
 [TS901]: ./src/easy/find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.ts
 [TS938]: ./src/easy/range-sum-of-bst/range-sum-of-bst.ts
 [TS965]: ./src/easy/univalued-binary-tree/univalued-binary-tree.ts
