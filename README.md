@@ -30,6 +30,7 @@
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
+| 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
 | 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
 | 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
@@ -70,6 +71,7 @@
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
+[TS257]: ./src/easy/binary-tree-paths/binary-tree-paths.ts
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
