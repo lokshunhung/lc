@@ -3,6 +3,7 @@ load("//tools:index.bzl", "jest_test")
 exports_files(
     [
         "list-node.ts",
+        "n-ary-tree-node.ts",
         "tree-node.ts",
         "types.ts",
     ],

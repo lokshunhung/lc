@@ -21,7 +21,7 @@ def jest_test(name, srcs, **kwargs):
 
     data = ["@npm//@types/jest", "@npm//tslib", "@npm//ts-jest"]
     data.extend(srcs)
-    data.extend(["//tools:list-node.ts", "//tools:tree-node.ts"])
+    data.extend(["//tools:list-node.ts", "//tools:n-ary-tree-node.ts", "//tools:tree-node.ts"])
     data.extend(["//:jest.config.json", "//:tsconfig.json"])
 
     _jest_test(
