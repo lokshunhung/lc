@@ -34,6 +34,7 @@
 | 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
 | 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
+| 589 | N-ary Tree Preorder Traversal                              | [TS][TS589]  | Easy       |
 | 590 | N-ary Tree Postorder Traversal                             | [TS][TS590]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
 | 700 | Search in a Binary Search Tree                             | [TS][TS700]  | Easy       |
@@ -80,6 +81,7 @@
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
+[TS589]: ./src/easy/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.ts
 [TS590]: ./src/easy/n-ary-tree-postorder-traversal/n-ary-tree-postorder-traversal.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
 [TS700]: ./src/easy/search-in-a-binary-search-tree/search-in-a-binary-search-tree.ts
