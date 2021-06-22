@@ -22,6 +22,7 @@ function arrayEquals(arr1: number[], arr2: number[]): boolean {
     return true;
 }
 
+// TODO: do not allocate array
 export function leafSimilar(root1: TreeNode | null, root2: TreeNode | null): boolean {
     let leaves1 = findLeaves(root1);
     let leaves2 = findLeaves(root2);
