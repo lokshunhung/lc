@@ -40,6 +40,7 @@
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
 | 429 | N-ary Tree Level Order Traversal                           | [TS][TS429]  | Medium     |
 | 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
+| 541 | Reverse String II                                          | [TS][TS541]  | Easy       |
 | 589 | N-ary Tree Preorder Traversal                              | [TS][TS589]  | Easy       |
 | 590 | N-ary Tree Postorder Traversal                             | [TS][TS590]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
@@ -93,6 +94,7 @@
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
 [TS429]: ./src/medium/n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.ts
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
+[TS541]: ./src/easy/reverse-string-ii/reverse-string-ii.ts
 [TS589]: ./src/easy/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.ts
 [TS590]: ./src/easy/n-ary-tree-postorder-traversal/n-ary-tree-postorder-traversal.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
