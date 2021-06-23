@@ -28,6 +28,7 @@
 | 118 | Pascal's Triangle                                          | [TS][TS118]  | Easy       |
 | 125 | Valid Palindrome                                           | [TS][TS125]  | Easy       |
 | 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]  | Medium     |
+| 133 | Clone Graph                                                | [TS][TS133]  | Medium     |
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
 | 151 | Reverse Words in a String                                  | [TS][TS151]  | Medium     |
 | 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
@@ -83,6 +84,7 @@
 [TS118]: ./src/easy/pascals-triangle/pascals-triangle.ts
 [TS125]: ./src/easy/valid-palindrome/valid-palindrome.ts
 [TS129]: ./src/medium/sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.ts
+[TS133]: ./src/medium/clone-graph/clone-graph.ts
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
 [TS151]: ./src/medium/reverse-words-in-a-string/reverse-words-in-a-string.ts
 [TS173]: ./src/medium/binary-search-tree-iterator
