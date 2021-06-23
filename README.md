@@ -26,6 +26,7 @@
 | 113 | Path Sum II                                                | [TS][TS113]  | Medium     |
 | 114 | Flatten Binary Tree to Linked List                         | [TS][TS114]  | Medium     |
 | 118 | Pascal's Triangle                                          | [TS][TS118]  | Easy       |
+| 125 | Valid Palindrome                                           | [TS][TS125]  | Easy       |
 | 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]  | Medium     |
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
 | 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
@@ -76,6 +77,7 @@
 [TS113]: ./src/medium/path-sum-ii/path-sum-ii.ts
 [TS114]: ./src/medium/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.ts
 [TS118]: ./src/easy/pascals-triangle/pascals-triangle.ts
+[TS125]: ./src/easy/valid-palindrome/valid-palindrome.ts
 [TS129]: ./src/medium/sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.ts
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
 [TS173]: ./src/medium/binary-search-tree-iterator
