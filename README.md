@@ -35,6 +35,7 @@
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
 | 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
 | 284 | Peeking Iterator                                           | [TS][TS284]  | Medium     |
+| 344 | Reverse String                                             | [TS][TS344]  | Easy       |
 | 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
 | 429 | N-ary Tree Level Order Traversal                           | [TS][TS429]  | Medium     |
@@ -87,6 +88,7 @@
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
 [TS257]: ./src/easy/binary-tree-paths/binary-tree-paths.ts
 [TS284]: ./src/medium/peeking-iterator/peeking-iterator.ts
+[TS344]: ./src/easy/reverse-string/reverse-string.ts
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
 [TS429]: ./src/medium/n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.ts
