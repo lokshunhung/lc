@@ -29,6 +29,7 @@
 | 125 | Valid Palindrome                                           | [TS][TS125]  | Easy       |
 | 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]  | Medium     |
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
+| 151 | Reverse Words in a String                                  | [TS][TS151]  | Medium     |
 | 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
@@ -80,6 +81,7 @@
 [TS125]: ./src/easy/valid-palindrome/valid-palindrome.ts
 [TS129]: ./src/medium/sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.ts
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
+[TS151]: ./src/medium/reverse-words-in-a-string/reverse-words-in-a-string.ts
 [TS173]: ./src/medium/binary-search-tree-iterator
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
