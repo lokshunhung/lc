@@ -39,6 +39,7 @@
 | 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
 | 284 | Peeking Iterator                                           | [TS][TS284]  | Medium     |
 | 344 | Reverse String                                             | [TS][TS344]  | Easy       |
+| 385 | Mini Parser                                                | [TS][TS385]  | Medium     |
 | 394 | Decode String                                              | [TS][TS394]  | Medium     |
 | 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
 | 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
@@ -103,6 +104,7 @@
 [TS257]: ./src/easy/binary-tree-paths/binary-tree-paths.ts
 [TS284]: ./src/medium/peeking-iterator/peeking-iterator.ts
 [TS344]: ./src/easy/reverse-string/reverse-string.ts
+[TS385]: ./src/medium/mini-parser/mini-parser.ts
 [TS394]: ./src/medium/decode-string/decode-string.ts
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
