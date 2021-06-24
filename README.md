@@ -64,6 +64,7 @@
 | 988 | Smallest String Starting From Leaf                         | [TS][TS988]  | Medium     |
 | 993 | Cousins in Binary Tree                                     | [TS][TS993]  | Easy       |
 | 1022| Sum of Root To Leaf Binary Numbers                         | [TS][TS1022] | Easy       |
+| 1859| Sorting the Sentence                                       | [TS][TS1859] | Easy       |
 
 [TS1]: ./src/easy/two-sum/two-sum.ts
 [TS2]: ./src/medium/add-two-numbers/add-two-numbers.ts
@@ -129,3 +130,4 @@
 [TS988]: ./src/medium/smallest-string-starting-from-leaf/smallest-string-starting-from-leaf.ts
 [TS993]: ./src/easy/cousins-in-binary-tree/cousins-in-binary-tree.ts
 [TS1022]: ./src/easy/sum-of-root-to-leaf-binary-numbers/sum-of-root-to-leaf-binary-numbers.ts
+[TS1859]: ./src/easy/sorting-the-sentence/sorting-the-sentence.ts
