@@ -52,6 +52,7 @@
 | 589 | N-ary Tree Preorder Traversal                              | [TS][TS589]  | Easy       |
 | 590 | N-ary Tree Postorder Traversal                             | [TS][TS590]  | Easy       |
 | 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
+| 671 | Second Minimum Node In a Binary Tree                       | [TS][TS671]  | Easy       |
 | 700 | Search in a Binary Search Tree                             | [TS][TS700]  | Easy       |
 | 792 | Number of Matching Subsequences                            | [TS][TS792]  | Medium     |
 | 872 | Leaf-Similar Trees                                         | [TS][TS872]  | Easy       |
@@ -115,6 +116,7 @@
 [TS589]: ./src/easy/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.ts
 [TS590]: ./src/easy/n-ary-tree-postorder-traversal/n-ary-tree-postorder-traversal.ts
 [TS637]: ./src/easy/average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.ts
+[TS671]: ./src/easy/second-minimum-node-in-a-binary-tree/second-minimum-node-in-a-binary-tree.ts
 [TS700]: ./src/easy/search-in-a-binary-search-tree/search-in-a-binary-search-tree.ts
 [TS792]: ./src/medium/number-of-matching-subsequences/number-of-matching-subsequences.ts
 [TS872]: ./src/easy/leaf-similar-trees/leaf-similar-trees.ts
