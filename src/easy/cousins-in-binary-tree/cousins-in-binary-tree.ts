@@ -4,15 +4,16 @@ export function isCousins(root: TreeNode | null, x: number, y: number): boolean 
     if (root === null) {
         return false;
     }
-    let queue: Array<[TreeNode | null, TreeNode]> = [];
-    queue.push([null, root]);
+    let setinel = new TreeNode(-1);
+    let queue: Array<[TreeNode, TreeNode]> = [];
+    queue.push([setinel, root]);
     while (queue.length !== 0) {
-        let foundParent: TreeNode | null | false = false;
-        let children: Array<[TreeNode | null, TreeNode]> = [];
+        let foundParent: TreeNode | null = null;
+        let children: Array<[TreeNode, TreeNode]> = [];
         while (queue.length !== 0) {
             let [parent, treeNode] = queue.pop()!;
             if (treeNode.val === x || treeNode.val === y) {
-                if (foundParent !== false) {
+                if (foundParent !== null) {
                     return foundParent !== parent;
                 } else {
                     foundParent = parent;
@@ -22,7 +23,7 @@ export function isCousins(root: TreeNode | null, x: number, y: number): boolean 
                 .filter((child): child is TreeNode => child !== null)
                 .forEach((child) => children.push([treeNode, child]));
         }
-        if (foundParent !== false) {
+        if (foundParent !== null) {
             return false;
         }
         queue = children;
