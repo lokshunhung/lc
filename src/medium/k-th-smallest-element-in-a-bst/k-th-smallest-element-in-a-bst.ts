@@ -21,3 +21,20 @@ export function kthSmallest(root: TreeNode | null, k: number): number {
     inorderTraverse(ref, root);
     return ref.result;
 }
+
+export function kthSmallestIterative(root: TreeNode | null, k: number): number {
+    let stack: Array<TreeNode> = [];
+    let treeNode: TreeNode | null = root;
+    while (true) {
+        while (treeNode !== null) {
+            stack.push(treeNode);
+            treeNode = treeNode.left;
+        }
+        treeNode = stack.pop()!;
+        --k;
+        if (k === 0) {
+            return treeNode.val;
+        }
+        treeNode = treeNode.right;
+    }
+}
