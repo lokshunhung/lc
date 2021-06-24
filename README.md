@@ -35,6 +35,7 @@
 | 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
+| 230 | Kth Smallest Element in a BST                              | [TS][TS230]  | Medium     |
 | 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
 | 284 | Peeking Iterator                                           | [TS][TS284]  | Medium     |
 | 344 | Reverse String                                             | [TS][TS344]  | Easy       |
@@ -97,6 +98,7 @@
 [TS173]: ./src/medium/binary-search-tree-iterator
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
+[TS230]: ./src/medium/k-th-smallest-element-in-a-bst/k-th-smallest-element-in-a-bst.ts
 [TS257]: ./src/easy/binary-tree-paths/binary-tree-paths.ts
 [TS284]: ./src/medium/peeking-iterator/peeking-iterator.ts
 [TS344]: ./src/easy/reverse-string/reverse-string.ts
