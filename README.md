@@ -2,6 +2,7 @@
 | --- | ---------------------------------------------------------- | ------------ | ---------- |
 | 1   | Two Sum                                                    | [TS][TS1]    | Easy       |
 | 2   | Add Two Numbers                                            | [TS][TS2]    | Medium     |
+| 6   | ZigZag Conversion                                          | [TS][TS6]    | Medium     |
 | 7   | Reverse Integer                                            | [TS][TS7]    | Easy       |
 | 8   | String to Integer (atoi)                                   | [TS][TS8]    | Medium     |
 | 9   | Palindrome Number                                          | [TS][TS9]    | Easy       |
@@ -68,6 +69,7 @@
 
 [TS1]: ./src/easy/two-sum/two-sum.ts
 [TS2]: ./src/medium/add-two-numbers/add-two-numbers.ts
+[TS6]: ./src/medium/zig-zag-conversion/zig-zag-conversion.ts
 [TS7]: ./src/easy/reverse-integer/reverse-integer.ts
 [TS8]: ./src/medium/string-to-integer/string-to-integer.ts
 [TS9]: ./src/easy/palindrome-number/palindrome-number.ts
