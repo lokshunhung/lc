@@ -11,6 +11,7 @@
 | 14  | Longest Common Prefix                                      | [TS][TS14]   | Easy       |
 | 20  | Valid Parentheses                                          | [TS][TS20]   | Easy       |
 | 26  | Remove Duplicates from Sorted Array                        | [TS][TS26]   | Easy       |
+| 28  | Implement strStr()                                         | [TS][TS28]   | Easy       |
 | 48  | Rotate Image                                               | [TS][TS48]   | Medium     |
 | 92  | Reverse Linked List II                                     | [TS][TS92]   | Medium     |
 | 94  | Binary Tree Inorder Traversal                              | [TS][TS94]   | Medium     |
@@ -78,6 +79,7 @@
 [TS14]: ./src/easy/longest-common-prefix/longest-common-prefix.ts
 [TS20]: ./src/easy/valid-parentheses/valid-parentheses.ts
 [TS26]: ./src/easy/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.ts
+[TS28]: ./src/easy/str-str/str-str.ts
 [TS48]: ./src/medium/rotate-image/rotate-image.ts
 [TS92]: ./src/medium/reverse-linked-list-ii/reverse-linked-list-ii.ts
 [TS94]: ./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts
