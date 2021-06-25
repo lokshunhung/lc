@@ -39,6 +39,7 @@
 | 165 | Compare Version Numbers                                    | [TS][TS165]  | Medium     |
 | 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
+| 224 | Basic Calculator                                           | [TS][TS224]  | Hard       |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
 | 230 | Kth Smallest Element in a BST                              | [TS][TS230]  | Medium     |
 | 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
@@ -110,6 +111,7 @@
 [TS165]: ./src/medium/compare-version-numbers/compare-version-numbers.ts
 [TS173]: ./src/medium/binary-search-tree-iterator
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
+[TS224]: ./src/hard/basic-calculator/basic-calculator.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
 [TS230]: ./src/medium/k-th-smallest-element-in-a-bst/k-th-smallest-element-in-a-bst.ts
 [TS257]: ./src/easy/binary-tree-paths/binary-tree-paths.ts
