@@ -36,6 +36,7 @@
 | 133 | Clone Graph                                                | [TS][TS133]  | Medium     |
 | 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
 | 151 | Reverse Words in a String                                  | [TS][TS151]  | Medium     |
+| 165 | Compare Version Numbers                                    | [TS][TS165]  | Medium     |
 | 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
 | 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
 | 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
@@ -106,6 +107,7 @@
 [TS133]: ./src/medium/clone-graph/clone-graph.ts
 [TS144]: ./src/easy/binary-tree-preorder-traversal/binary-tree-preorder-traversal.ts
 [TS151]: ./src/medium/reverse-words-in-a-string/reverse-words-in-a-string.ts
+[TS165]: ./src/medium/compare-version-numbers/compare-version-numbers.ts
 [TS173]: ./src/medium/binary-search-tree-iterator
 [TS222]: ./src/medium/count-complete-tree-nodes/count-complete-tree-nodes.ts
 [TS226]: ./src/easy/invert-binary-tree/invert-binary-tree.ts
