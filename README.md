@@ -16,6 +16,7 @@
 | 38  | Count and Say                                              | [TS][TS38]   | Medium     |
 | 48  | Rotate Image                                               | [TS][TS48]   | Medium     |
 | 58  | Length of Last Word                                        | [TS][TS58]   | Easy       |
+| 67  | Add Binary                                                 | [TS][TS67]   | Easy       |
 | 92  | Reverse Linked List II                                     | [TS][TS92]   | Medium     |
 | 94  | Binary Tree Inorder Traversal                              | [TS][TS94]   | Medium     |
 | 98  | Validate Binary Search Tree                                | [TS][TS98]   | Medium     |
@@ -89,6 +90,7 @@
 [TS38]: ./src/medium/count-and-say/count-and-say.ts
 [TS48]: ./src/medium/rotate-image/rotate-image.ts
 [TS58]: ./src/easy/length-of-last-word/length-of-last-word.ts
+[TS67]: ./src/easy/add-binary/add-binary.ts
 [TS92]: ./src/medium/reverse-linked-list-ii/reverse-linked-list-ii.ts
 [TS94]: ./src/medium/binary-tree-level-order-traversal/binary-tree-level-order-traversal.ts
 [TS98]: ./src/medium/validate-binary-search-tree/validate-binary-search-tree.ts
