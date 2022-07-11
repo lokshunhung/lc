@@ -1,6 +1,12 @@
 load("//tools:index.bzl", "jest_test")
+load("@build_bazel_rules_swift//swift:swift.bzl", "swift_test")
 
 jest_test(
     name = "test-ts",
     srcs = glob(["**/*.ts"]),
+)
+
+swift_test(
+    name = "test-xc",
+    srcs = glob(["**/*.swift"]),
 )

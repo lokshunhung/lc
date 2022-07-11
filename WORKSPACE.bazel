@@ -5,7 +5,9 @@ workspace(
     },
 )
 
-load("//tools:bazel_deps.bzl", "fetch_build_bazel_rules_nodejs")
+load("//tools:bazel_deps.bzl", "fetch_build_bazel_rules_nodejs", "fetch_build_bazel_rules_swift")
+
+# nodejs
 
 fetch_build_bazel_rules_nodejs()
 
@@ -21,3 +23,15 @@ yarn_install(
     quiet = False,
     yarn_lock = "//:yarn.lock",
 )
+
+# swift
+
+fetch_build_bazel_rules_swift()
+
+load("@build_bazel_rules_swift//swift:repositories.bzl", "swift_rules_dependencies")
+
+swift_rules_dependencies()
+
+load("@build_bazel_rules_swift//swift:extras.bzl", "swift_rules_extra_dependencies")
+
+swift_rules_extra_dependencies()
