@@ -52,6 +52,7 @@
 | 394 | Decode String                                              | [TS][TS394]              | Medium     |
 | 404 | Sum of Left Leaves                                         | [TS][TS404]              | Easy       |
 | 412 | Fizz Buzz                                                  | [TS][TS412] [SW][SW412]  | Easy       |
+| 415 | Add Strings                                                | [TS][TS415] [SW][SW415]  | Easy       |
 | 429 | N-ary Tree Level Order Traversal                           | [TS][TS429]              | Medium     |
 | 509 | Fibonacci Number                                           | [TS][TS509]              | Easy       |
 | 513 | Find Bottom Left Tree Value                                | [TS][TS513]              | Medium     |
@@ -128,6 +129,8 @@
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
 [SW412]: ./src/easy/fizz-buzz/FizzBuzz.swift
+[TS415]: ./src/easy/add-strings/add-strings.ts
+[SW415]: ./src/easy/add-strings/AddStrings.swift
 [TS429]: ./src/medium/n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.ts
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
 [TS513]: ./src/medium/find-bottom-left-tree-value/find-bottom-left-tree-value.ts
