@@ -1,79 +1,79 @@
-| #   | Title                                                      | Solution     | Difficulty |
-| --- | ---------------------------------------------------------- | ------------ | ---------- |
-| 1   | Two Sum                                                    | [TS][TS1]    | Easy       |
-| 2   | Add Two Numbers                                            | [TS][TS2]    | Medium     |
-| 3   | Longest Substring Without Repeating Characters             | [TS][TS3]    | Medium     |
-| 6   | ZigZag Conversion                                          | [TS][TS6]    | Medium     |
-| 7   | Reverse Integer                                            | [TS][TS7]    | Easy       |
-| 8   | String to Integer (atoi)                                   | [TS][TS8]    | Medium     |
-| 9   | Palindrome Number                                          | [TS][TS9]    | Easy       |
-| 12  | Integer to Roman                                           | [TS][TS12]   | Medium     |
-| 13  | Roman to Integer                                           | [TS][TS13]   | Easy       |
-| 14  | Longest Common Prefix                                      | [TS][TS14]   | Easy       |
-| 20  | Valid Parentheses                                          | [TS][TS20]   | Easy       |
-| 26  | Remove Duplicates from Sorted Array                        | [TS][TS26]   | Easy       |
-| 28  | Implement strStr()                                         | [TS][TS28]   | Easy       |
-| 38  | Count and Say                                              | [TS][TS38]   | Medium     |
-| 48  | Rotate Image                                               | [TS][TS48]   | Medium     |
-| 58  | Length of Last Word                                        | [TS][TS58]   | Easy       |
-| 67  | Add Binary                                                 | [TS][TS67]   | Easy       |
-| 92  | Reverse Linked List II                                     | [TS][TS92]   | Medium     |
-| 94  | Binary Tree Inorder Traversal                              | [TS][TS94]   | Medium     |
-| 98  | Validate Binary Search Tree                                | [TS][TS98]   | Medium     |
-| 100 | Same Tree                                                  | [TS][TS100]  | Easy       |
-| 101 | Symmetric Tree                                             | [TS][TS101]  | Easy       |
-| 102 | Binary Tree Level Order Traversal                          | [TS][TS102]  | Medium     |
-| 103 | Binary Tree Zigzag Level Order Traversal                   | [TS][TS103]  | Medium     |
-| 104 | Maximum Depth of Binary Tree                               | [TS][TS104]  | Easy       |
-| 107 | Binary Tree Level Order Traversal II                       | [TS][TS107]  | Medium     |
-| 108 | Convert Sorted Array to Binary Search Tree                 | [TS][TS108]  | Easy       |
-| 110 | Balanced Binary Tree                                       | [TS][TS110]  | Easy       |
-| 111 | Minimum Depth of Binary Tree                               | [TS][TS111]  | Easy       |
-| 112 | Path Sum                                                   | [TS][TS112]  | Easy       |
-| 113 | Path Sum II                                                | [TS][TS113]  | Medium     |
-| 114 | Flatten Binary Tree to Linked List                         | [TS][TS114]  | Medium     |
-| 118 | Pascal's Triangle                                          | [TS][TS118]  | Easy       |
-| 125 | Valid Palindrome                                           | [TS][TS125]  | Easy       |
-| 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]  | Medium     |
-| 133 | Clone Graph                                                | [TS][TS133]  | Medium     |
-| 144 | Binary Tree Preorder Traversal                             | [TS][TS144]  | Easy       |
-| 151 | Reverse Words in a String                                  | [TS][TS151]  | Medium     |
-| 165 | Compare Version Numbers                                    | [TS][TS165]  | Medium     |
-| 168 | Excel Sheet Column Title                                   | [TS][TS168]  | Easy       |
-| 173 | Binary Search Tree Iterator                                | [TS][TS173]  | Medium     |
-| 222 | Count Complete Tree Nodes                                  | [TS][TS222]  | Medium     |
-| 224 | Basic Calculator                                           | [TS][TS224]  | Hard       |
-| 226 | Invert Binary Tree                                         | [TS][TS226]  | Easy       |
-| 230 | Kth Smallest Element in a BST                              | [TS][TS230]  | Medium     |
-| 257 | Binary Tree Paths                                          | [TS][TS257]  | Easy       |
-| 284 | Peeking Iterator                                           | [TS][TS284]  | Medium     |
-| 344 | Reverse String                                             | [TS][TS344]  | Easy       |
-| 385 | Mini Parser                                                | [TS][TS385]  | Medium     |
-| 394 | Decode String                                              | [TS][TS394]  | Medium     |
-| 404 | Sum of Left Leaves                                         | [TS][TS404]  | Easy       |
-| 412 | Fizz Buzz                                                  | [TS][TS412]  | Easy       |
-| 429 | N-ary Tree Level Order Traversal                           | [TS][TS429]  | Medium     |
-| 509 | Fibonacci Number                                           | [TS][TS509]  | Easy       |
-| 513 | Find Bottom Left Tree Value                                | [TS][TS513]  | Medium     |
-| 515 | Find Largest Value in Each Tree Row                        | [TS][TS515]  | Medium     |
-| 541 | Reverse String II                                          | [TS][TS541]  | Easy       |
-| 557 | Reverse Words in a String III                              | [TS][TS557]  | Easy       |
-| 559 | Maximum Depth of N-ary Tree                                | [TS][TS559]  | Easy       |
-| 589 | N-ary Tree Preorder Traversal                              | [TS][TS589]  | Easy       |
-| 590 | N-ary Tree Postorder Traversal                             | [TS][TS590]  | Easy       |
-| 637 | Average of Levels in Binary Tree                           | [TS][TS637]  | Easy       |
-| 671 | Second Minimum Node In a Binary Tree                       | [TS][TS671]  | Easy       |
-| 700 | Search in a Binary Search Tree                             | [TS][TS700]  | Easy       |
-| 792 | Number of Matching Subsequences                            | [TS][TS792]  | Medium     |
-| 872 | Leaf-Similar Trees                                         | [TS][TS872]  | Easy       |
-| 897 | Increasing Order Search Tree                               | [TS][TS897]  | Easy       |
-| 901 | Find Mode in Binary Search Tree                            | [TS][TS901]  | Easy       |
-| 938 | Range Sum of BST                                           | [TS][TS938]  | Easy       |
-| 965 | Univalued Binary Tree                                      | [TS][TS965]  | Easy       |
-| 988 | Smallest String Starting From Leaf                         | [TS][TS988]  | Medium     |
-| 993 | Cousins in Binary Tree                                     | [TS][TS993]  | Easy       |
-| 1022| Sum of Root To Leaf Binary Numbers                         | [TS][TS1022] | Easy       |
-| 1859| Sorting the Sentence                                       | [TS][TS1859] | Easy       |
+| #   | Title                                                      | Solution                 | Difficulty |
+| --- | ---------------------------------------------------------- | ------------------------ | ---------- |
+| 1   | Two Sum                                                    | [TS][TS1]                | Easy       |
+| 2   | Add Two Numbers                                            | [TS][TS2]                | Medium     |
+| 3   | Longest Substring Without Repeating Characters             | [TS][TS3]                | Medium     |
+| 6   | ZigZag Conversion                                          | [TS][TS6]                | Medium     |
+| 7   | Reverse Integer                                            | [TS][TS7]                | Easy       |
+| 8   | String to Integer (atoi)                                   | [TS][TS8]                | Medium     |
+| 9   | Palindrome Number                                          | [TS][TS9]                | Easy       |
+| 12  | Integer to Roman                                           | [TS][TS12]               | Medium     |
+| 13  | Roman to Integer                                           | [TS][TS13]               | Easy       |
+| 14  | Longest Common Prefix                                      | [TS][TS14]               | Easy       |
+| 20  | Valid Parentheses                                          | [TS][TS20]               | Easy       |
+| 26  | Remove Duplicates from Sorted Array                        | [TS][TS26]               | Easy       |
+| 28  | Implement strStr()                                         | [TS][TS28]               | Easy       |
+| 38  | Count and Say                                              | [TS][TS38]               | Medium     |
+| 48  | Rotate Image                                               | [TS][TS48]               | Medium     |
+| 58  | Length of Last Word                                        | [TS][TS58]               | Easy       |
+| 67  | Add Binary                                                 | [TS][TS67]               | Easy       |
+| 92  | Reverse Linked List II                                     | [TS][TS92]               | Medium     |
+| 94  | Binary Tree Inorder Traversal                              | [TS][TS94]               | Medium     |
+| 98  | Validate Binary Search Tree                                | [TS][TS98]               | Medium     |
+| 100 | Same Tree                                                  | [TS][TS100]              | Easy       |
+| 101 | Symmetric Tree                                             | [TS][TS101]              | Easy       |
+| 102 | Binary Tree Level Order Traversal                          | [TS][TS102]              | Medium     |
+| 103 | Binary Tree Zigzag Level Order Traversal                   | [TS][TS103]              | Medium     |
+| 104 | Maximum Depth of Binary Tree                               | [TS][TS104]              | Easy       |
+| 107 | Binary Tree Level Order Traversal II                       | [TS][TS107]              | Medium     |
+| 108 | Convert Sorted Array to Binary Search Tree                 | [TS][TS108]              | Easy       |
+| 110 | Balanced Binary Tree                                       | [TS][TS110]              | Easy       |
+| 111 | Minimum Depth of Binary Tree                               | [TS][TS111]              | Easy       |
+| 112 | Path Sum                                                   | [TS][TS112]              | Easy       |
+| 113 | Path Sum II                                                | [TS][TS113]              | Medium     |
+| 114 | Flatten Binary Tree to Linked List                         | [TS][TS114]              | Medium     |
+| 118 | Pascal's Triangle                                          | [TS][TS118]              | Easy       |
+| 125 | Valid Palindrome                                           | [TS][TS125]              | Easy       |
+| 129 | Sum Root to Leaf Numbers                                   | [TS][TS129]              | Medium     |
+| 133 | Clone Graph                                                | [TS][TS133]              | Medium     |
+| 144 | Binary Tree Preorder Traversal                             | [TS][TS144]              | Easy       |
+| 151 | Reverse Words in a String                                  | [TS][TS151]              | Medium     |
+| 165 | Compare Version Numbers                                    | [TS][TS165]              | Medium     |
+| 168 | Excel Sheet Column Title                                   | [TS][TS168]              | Easy       |
+| 173 | Binary Search Tree Iterator                                | [TS][TS173]              | Medium     |
+| 222 | Count Complete Tree Nodes                                  | [TS][TS222]              | Medium     |
+| 224 | Basic Calculator                                           | [TS][TS224]              | Hard       |
+| 226 | Invert Binary Tree                                         | [TS][TS226]              | Easy       |
+| 230 | Kth Smallest Element in a BST                              | [TS][TS230]              | Medium     |
+| 257 | Binary Tree Paths                                          | [TS][TS257]              | Easy       |
+| 284 | Peeking Iterator                                           | [TS][TS284]              | Medium     |
+| 344 | Reverse String                                             | [TS][TS344]              | Easy       |
+| 385 | Mini Parser                                                | [TS][TS385]              | Medium     |
+| 394 | Decode String                                              | [TS][TS394]              | Medium     |
+| 404 | Sum of Left Leaves                                         | [TS][TS404]              | Easy       |
+| 412 | Fizz Buzz                                                  | [TS][TS412] [SW][SW412]  | Easy       |
+| 429 | N-ary Tree Level Order Traversal                           | [TS][TS429]              | Medium     |
+| 509 | Fibonacci Number                                           | [TS][TS509]              | Easy       |
+| 513 | Find Bottom Left Tree Value                                | [TS][TS513]              | Medium     |
+| 515 | Find Largest Value in Each Tree Row                        | [TS][TS515]              | Medium     |
+| 541 | Reverse String II                                          | [TS][TS541]              | Easy       |
+| 557 | Reverse Words in a String III                              | [TS][TS557]              | Easy       |
+| 559 | Maximum Depth of N-ary Tree                                | [TS][TS559]              | Easy       |
+| 589 | N-ary Tree Preorder Traversal                              | [TS][TS589]              | Easy       |
+| 590 | N-ary Tree Postorder Traversal                             | [TS][TS590]              | Easy       |
+| 637 | Average of Levels in Binary Tree                           | [TS][TS637]              | Easy       |
+| 671 | Second Minimum Node In a Binary Tree                       | [TS][TS671]              | Easy       |
+| 700 | Search in a Binary Search Tree                             | [TS][TS700]              | Easy       |
+| 792 | Number of Matching Subsequences                            | [TS][TS792]              | Medium     |
+| 872 | Leaf-Similar Trees                                         | [TS][TS872]              | Easy       |
+| 897 | Increasing Order Search Tree                               | [TS][TS897]              | Easy       |
+| 901 | Find Mode in Binary Search Tree                            | [TS][TS901]              | Easy       |
+| 938 | Range Sum of BST                                           | [TS][TS938]              | Easy       |
+| 965 | Univalued Binary Tree                                      | [TS][TS965]              | Easy       |
+| 988 | Smallest String Starting From Leaf                         | [TS][TS988]              | Medium     |
+| 993 | Cousins in Binary Tree                                     | [TS][TS993]              | Easy       |
+| 1022| Sum of Root To Leaf Binary Numbers                         | [TS][TS1022]             | Easy       |
+| 1859| Sorting the Sentence                                       | [TS][TS1859]             | Easy       |
 
 [TS1]: ./src/easy/two-sum/two-sum.ts
 [TS2]: ./src/medium/add-two-numbers/add-two-numbers.ts
@@ -127,6 +127,7 @@
 [TS394]: ./src/medium/decode-string/decode-string.ts
 [TS404]: ./src/easy/sum-of-left-leaves/sum-of-left-leaves.ts
 [TS412]: ./src/easy/fizz-buzz/fizz-buzz.ts
+[SW412]: ./src/easy/fizz-buzz/FizzBuzz.swift
 [TS429]: ./src/medium/n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.ts
 [TS509]: ./src/easy/fibonacci-number/fibonacci-number.ts
 [TS513]: ./src/medium/find-bottom-left-tree-value/find-bottom-left-tree-value.ts
