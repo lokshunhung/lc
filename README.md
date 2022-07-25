@@ -1,6 +1,6 @@
 | #   | Title                                                      | Solution                 | Difficulty |
 | --- | ---------------------------------------------------------- | ------------------------ | ---------- |
-| 1   | Two Sum                                                    | [TS][TS1]                | Easy       |
+| 1   | Two Sum                                                    | [TS][TS1] [SW][SW1]      | Easy       |
 | 2   | Add Two Numbers                                            | [TS][TS2]                | Medium     |
 | 3   | Longest Substring Without Repeating Characters             | [TS][TS3]                | Medium     |
 | 6   | ZigZag Conversion                                          | [TS][TS6]                | Medium     |
@@ -77,6 +77,7 @@
 | 1859| Sorting the Sentence                                       | [TS][TS1859]             | Easy       |
 
 [TS1]: ./src/easy/two-sum/two-sum.ts
+[SW1]: ./src/easy/two-sum/TwoSum.swift
 [TS2]: ./src/medium/add-two-numbers/add-two-numbers.ts
 [TS3]: ./src/medium/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.ts
 [TS6]: ./src/medium/zig-zag-conversion/zig-zag-conversion.ts
